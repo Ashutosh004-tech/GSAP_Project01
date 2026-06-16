@@ -1,0 +1,30 @@
+body {
+  background-color: #111;
+  margin: 14%;
+  height: 100vh;
+}
+.cocaCola {
+  position: relative;
+}
+.text-field {
+  position: absolute;
+  z-index: 1;
+}
+.tagline,
+.logo {
+  color: white;
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.logo {
+  font-size: 9.6rem;
+}
+.cocaCola img {
+  rotate: -10deg;
+  position: relative;
+  z-index: 2;
+  height: 80vh;
+}
