@@ -5,11 +5,31 @@
 }
 
 body {
-  background:#fff;
-     overflow: hidden;
+  background: #fff;
+  overflow: hidden;
 }
 
-
+.navbar {
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+ 
+}
+.nav-logo {
+  margin-right: 2rem;
+  font-size: 1.4rem;
+  padding: 5px;
+  background-color: #e41e26;
+  border-radius: 50%;
+}
+.nav-logo p {
+  padding: 5px;
+  font-family:
+    "Loki Cola", "Spencerian Script", "Exmouth", "Brush Script MT", cursive;
+  color: #ffffff;
+}
 .cocaCola {
   width: 100%;
   height: 100vh;
@@ -22,8 +42,8 @@ body {
 .text-field {
   flex: 1;
 }
-.text-field h2{
-  color:#111;
+.text-field h2 {
+  color: #111;
 }
 
 .tagline,
@@ -54,4 +74,3 @@ body {
   transform: rotate(-10deg);
   object-fit: contain;
 }
-
