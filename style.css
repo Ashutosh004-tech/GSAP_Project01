@@ -5,9 +5,10 @@
 }
 
 body {
-  background-color: #111;
-  overflow: hidden; /* remove scroll */
+  background:#fff;
+     overflow: hidden;
 }
+
 
 .cocaCola {
   width: 100%;
@@ -20,6 +21,9 @@ body {
 
 .text-field {
   flex: 1;
+}
+.text-field h2{
+  color:#111;
 }
 
 .tagline,
@@ -50,3 +54,4 @@ body {
   transform: rotate(-10deg);
   object-fit: contain;
 }
+

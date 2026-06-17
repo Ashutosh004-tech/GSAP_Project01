@@ -17,4 +17,11 @@ tl.from(".tagline",{
     duration:1.5,
     repeat:-1,
     yoyo:true
-})
+}).to(".bubble", {
+  y: -50,
+  duration: 4,
+  repeat: -1,
+  yoyo: true,
+  ease: "sine.inOut",
+  stagger: 0.3
+});
