@@ -1,30 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #111;
-  margin: 14%;
-  height: 100vh;
+  overflow: hidden; /* remove scroll */
 }
+
 .cocaCola {
-  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
 }
+
 .text-field {
-  position: absolute;
-  z-index: 1;
+  flex: 1;
 }
+
 .tagline,
 .logo {
   color: white;
-  font-size: 6rem;
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
+  line-height: 1;
+}
+
+.tagline {
+  font-size: 6rem;
 }
 
 .logo {
-  font-size: 9.6rem;
+  font-size: 9rem;
 }
-.cocaCola img {
-  rotate: -10deg;
-  position: relative;
-  z-index: 2;
-  height: 80vh;
+
+.cocaCola-bottle {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cocaCola-bottle img {
+  height: 85vh;
+  transform: rotate(-10deg);
+  object-fit: contain;
 }
